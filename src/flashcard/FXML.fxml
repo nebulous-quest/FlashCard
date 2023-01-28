@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="flashcard.FXMLController">
+   <children>
+      <ImageView fitHeight="393.0" fitWidth="612.0" layoutX="5.0" layoutY="4.0" opacity="0.7" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bg.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="155.0" layoutY="76.0" prefHeight="43.0" prefWidth="291.0" style="-fx-background-color: #B2FF59;" text="Flash Card">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font>
+      </Label>
+      <Button alignment="CENTER" layoutX="202.0" layoutY="170.0" mnemonicParsing="false" onAction="#create" prefHeight="37.0" prefWidth="195.0" style="-fx-background-radius: 50; -fx-background-color: #FFCA28;" text="Create Flash Card">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="203.0" layoutY="248.0" mnemonicParsing="false" onAction="#play" prefHeight="37.0" prefWidth="195.0" style="-fx-background-radius: 50; -fx-background-color: #B39DDB;" text="Play Flash Card">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="202.0" layoutY="319.0" mnemonicParsing="false" onAction="#exit" prefHeight="37.0" prefWidth="195.0" style="-fx-background-radius: 50; -fx-background-color: #FF5722;" text="EXIT">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="flashcard.FXML1Controller">
+   <children>
+      <ImageView fitHeight="391.0" fitWidth="579.0" layoutX="10.0" layoutY="9.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bg1.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="227.0" layoutY="21.0" prefHeight="40.0" prefWidth="130.0" style="-fx-background-color: #FFC107; -fx-background-radius: 200;" text="Question">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="235.0" layoutY="173.0" prefHeight="40.0" prefWidth="130.0" style="-fx-background-color: #FFC107; -fx-background-radius: 200;" text="Answer">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="question" layoutX="47.0" layoutY="84.0" prefHeight="65.0" prefWidth="529.0">
+         <font>
+            <Font size="18.0" />
+         </font></TextArea>
+      <TextArea fx:id="answer" layoutX="47.0" layoutY="232.0" prefHeight="90.0" prefWidth="529.0">
+         <font>
+            <Font size="18.0" />
+         </font></TextArea>
+      <Button layoutX="230.0" layoutY="355.0" mnemonicParsing="false" onAction="#nextC" prefHeight="40.0" prefWidth="124.0" style="-fx-background-color: #FFC107;" text="Next Card">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#home" style="-fx-background-color: #B39DDB;" text="Home">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="517.0" layoutY="358.0" mnemonicParsing="false" onAction="#save" prefHeight="35.0" prefWidth="72.0" style="-fx-background-color: #76FF03;" text="Save">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

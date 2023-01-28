@@ -1,0 +1,6 @@
+What is the currency name of Bangladesh?
+Taka
+Which is your favourite subject?
+Math.
+What is java?
+Java is a computer programming language.
